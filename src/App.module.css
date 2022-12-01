@@ -1,0 +1,27 @@
+.wrapper { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.formConatiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.todoContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+}
+.todo{
+  width: 120px;
+  height: 120px;
+  border: 1px solid green;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
